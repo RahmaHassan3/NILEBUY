@@ -1,0 +1,113 @@
+header {
+  background: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 2.0rem;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+  color: #f76c00;
+}
+
+/* Products Page Styles */
+.products {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: rgba(255, 214, 148, 0.724);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: rgb(0, 0, 0);
+}
+
+.products h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.products p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1.5rem;
+  padding: 0 2rem;
+}
+
+.product-card {
+  background: #fff;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+}
+
+.product-card h3 {
+  font-size: 1.5rem; /* Adjusted font size */
+  color: #333;
+  margin-bottom: 0.5rem;
+  text-decoration: none; /* Remove underline for product names */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.product-card a {
+  text-decoration: none; /* Ensure links have no underline */
+  color: inherit; /* Inherit color from parent */
+}
+
+.product-card a:hover h3 {
+  color: #f76c00; /* Change color on hover for product names */
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Active Navigation Link */
+.nav-links .active {
+  color: #f76c00;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #f1f1f137;
+  color: #333;
+  margin-top: 2rem;
+}

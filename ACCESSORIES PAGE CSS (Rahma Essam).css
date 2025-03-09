@@ -1,0 +1,154 @@
+/* Accessories Page Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(255, 214, 148, 0.724);
+    color: #333;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .accessories {
+    text-align: center;
+    padding: 2rem 1rem;
+    color: #333;
+  }
+  
+  .accessories h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .accessories p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .accessories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    padding: 0 2rem;
+  }
+  
+  .accessories-card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .accessories-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .accessories-card h3 {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .accessories-card .price {
+    font-size: 1.2rem;
+    color: #f76c00;
+    margin-bottom: 1rem;
+  }
+  
+  .cart-btn,
+  .fav-btn {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .cart-btn:hover {
+    background-color: #f76c00;
+  }
+  
+  .fav-btn:hover {
+    background-color: #e83e8c;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f137;
+    color: #333;
+    margin-top: 2rem;
+  }
+  
+  /* Navigation Styles */
+  header {
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 2.0rem;
+  }
+  
+  .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #f76c00;
+  }
+  
+  .sub-navbar {
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+  }
+  
+  .sub-nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+  }
+  
+  .sub-nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .sub-nav-links li a:hover {
+    color: #f76c00;
+  }
+  
+  /* Active Navigation Link */
+  .nav-links .active {
+    color: #f76c00;
+  }
